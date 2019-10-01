@@ -3,9 +3,7 @@ import mongoose from 'mongoose';
 export const connect = () => {
 	return new Promise((resolve, reject) => {
 		mongoose
-			.connect('mongodb://127.0.0.1/testapp', {
-				user: 'test',
-				pass: '1234',
+			.connect('mongodb://mongo/admin', {
 				useNewUrlParser: true,
 				useCreateIndex: true,
 				useUnifiedTopology: true,

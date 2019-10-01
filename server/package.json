@@ -26,6 +26,7 @@
 		"saslprep": "^1.0.3"
 	},
 	"scripts": {
-		"dev": "NODE_PATH=src nodemon --watch src/ src/server.js --exec babel-node"
+		"dev": "NODE_PATH=src nodemon --watch src/ src/server.js --exec babel-node",
+		"start": "NODE_PATH=src npx babel-node src/server.js"
 	}
 }
