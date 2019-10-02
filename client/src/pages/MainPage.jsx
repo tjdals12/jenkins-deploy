@@ -10,7 +10,8 @@ const MainPage = () => {
 				<TodoInputContainer />
 				<TodoListContainer />
 				<div>1. Jenkin Deploy</div>
-				<div>2. Github Webhoos</div>
+				<div>2. Github Webhook</div>
+				<div>3. Edit content type in Github Webhook</div>
 			</TodoTemplate>
 		</div>
 	);
