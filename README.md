@@ -25,5 +25,7 @@ $ docker-compose -v
 ```
 
 **3.Jenkins - Github 연동 / 스크립트 작성**
+
 docker-compose rm -s -f -v
+
 docker-compose up -d --build
